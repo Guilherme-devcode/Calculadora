@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+#particles-js{
+	height: 92%;
+	background: #f2f3f7;
+}
+*{
+	transition: all .2s linear;
+    text-decoration: none;
+    outline: none; border:none;
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 0; 
+}
+.container{
+	background-image: linear-gradient(#f2f3f7, #f2f3f7);
+	height: 100vh;
+	color: #3c474b;
+	text-align: center;
+
+}
+.container h1{
+	cursor: default;
+	transition: 0.25s;
+}
+.container h1:hover{
+	color: rgb(20, 238, 227);
+}
+.calculadora{
+	box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 4px rgba(255, 255, 255, 0.1),
+                15px 5px 10px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	background: #f2f3f7;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 15px;
+	padding: 15px;
+}
+.calculadora h1{
+	cursor: default;
+	transition: 0.25s;
+}
+.calculadora h1:hover{
+	color: #14eee3;
+
+}
+.botao{
+	margin: 3px;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	background: #f2f3f7;
+    position: relative;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 14px;
+    border-radius: 40px;
+    box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+                -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 4px rgba(255, 255, 255, 0.1),
+                2px 2px 8px rgba(0, 0, 0, 0.15);
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.botao:hover{
+	color: rgb(20, 238, 227);
+	box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset -2px -2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+#resultado{
+	font-size: 25px;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: right;
+	height: 30px;
+	margin: 5px;
+	width: 207px;
+	background-color: #ffffff;
+}

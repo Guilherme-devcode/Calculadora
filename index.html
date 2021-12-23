@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calculadora</title>  
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body> 
+
+
+    <div class="container">
+      <h1>Guilherme Rocha</h1>
+      <div id="particles-js"></div>
+        
+        <div class="calculadora">
+          <h1>Calculadora</h1>
+            <p id="resultado"></p>
+            <table>
+              <tr>
+                <td><button class="botao" onclick="clean()">C</button></td>
+                <td><button class="botao" onclick="back()"><</button></td>
+                <td><button class="botao" onclick="insert('/')">/</button></td>
+                <td><button class="botao" onclick="insert('*')">X</button></td>
+              </tr>
+              <tr>
+                <td><button onclick="insert('7')" class="botao">7</button></td>
+                <td><button onclick="insert('8')" class="botao">8</button></td>
+                <td><button onclick="insert('9')" class="botao">9</button></td>
+                <td><button class="botao" onclick="insert('-')">-</button></td>
+              </tr>
+              <tr>
+                <td><button onclick="insert('4')" class="botao">4</button></td>
+                <td><button onclick="insert('5')" class="botao">5</button></td>
+                <td><button onclick="insert('6')" class="botao">6</button></td>
+                <td><button class="botao" onclick="insert('+')">+</button></td>
+              </tr>
+              <tr>
+                <td><button onclick="insert('1')" class="botao">1</button></td>
+                <td><button onclick="insert('2')" class="botao">2</button></td>
+                <td><button onclick="insert('3')" class="botao">3</button></td>
+                <td rowspan="2"><button  style="height: 106px;" onclick="calcular()" class="botao">=</button></td>
+              </tr>
+              <tr>
+                <td colspan="2"><button onclick="insert('0')" style="width: 106px;" class="botao">0</button></td>
+                <td><button class="botao" onclick="insert('.')">.</button></td>
+              </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+</html>
