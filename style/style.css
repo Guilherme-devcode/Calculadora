@@ -75,6 +75,7 @@
                 inset 2px 2px 8px rgba(0, 0, 0, 0.15);
 }
 #resultado{
+	overflow: hidden;
 	font-size: 25px;
 	padding: 5px;
 	border-radius: 5px;
