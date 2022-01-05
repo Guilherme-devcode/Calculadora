@@ -26,7 +26,7 @@ Uma calculadora com todas as operações matemáticas como: (adição, subtraç�
 
 ### Demo
 <h1 align="center">
-    <img alt="Catalogo de Cursos" title="Catalogo de Cursos" src="./public/img/demo.gif" />
+    <img alt="Calculadora" title="Calculadora" src="./public/img/demo.gif" />
 </h1>
 
 <p align="right">
